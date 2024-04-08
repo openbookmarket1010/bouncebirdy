@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bounce Bird</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        background-color: #ffffff;
+        color: #282828;
+        font-family: 'Archivo', sans-serif;
+        position: relative;
+        padding: 20px;
+    }
+
+    h1 {
+        font-weight: bold;
+        margin: 0;
+        font-size: 36px;
+    }
+
+    .wallet-button, .how-to-buy-button {
+        background-color: #ffffff;
+        border: 2px solid #000000;
+        color: #000000;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .wallet-button {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .gif-container {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .gif-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .description {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .tokenomics {
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .token-boxes {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .token-box {
+        width: calc(33.33% - 10px);
+        padding: 20px;
+        border: 2px solid #000000;
+        background-color: #ffffff;
+    }
+
+    .how-to-buy {
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .how-to-buy-boxes {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .how-to-buy-box {
+        padding: 20px;
+        border: 2px solid #000000;
+        background-color: #ffffff;
+    }
+
+    .how-to-buy-buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+
+<h1>Bounce Bird</h1>
+
+<button onclick="connectWallet()" class="wallet-button">Connect Wallet</button>
+
+<div class="gif-container">
+    <img src="https://i.postimg.cc/xTpbcDgy/image-processing20190912-11555-16isovb.gif" alt="GIF Image" class="gif-image">
+</div>
+
+<p class="description">Introducing "BounceBird," an enchanting avian companion radiating perpetual exuberance and vivacity. With its diminutive yet charming physique adorned in a kaleidoscope of vibrant plumage, BounceBird captivates with an irresistible allure. Aligning with BounceBird within the dynamic world of Solana Token heralds an unparalleled journey, infusing each endeavor with a renewed sense of joy, enthusiasm, and boundless possibilities.</p>
+
+<p class="tokenomics">Tokenomics</p>
+
+<div class="token-boxes">
+    <div class="token-box">LP Burned</div>
+    <div class="token-box">Supply 1,000,000,000</div>
+    <div class="token-box">0% taxes</div>
+</div>
+
+<p class="how-to-buy">How To Buy</p>
+
+<div class="how-to-buy-boxes">
+    <div class="how-to-buy-box">1) Download Phantom Or Any Solana Wallet</div>
+    <div class="how-to-buy-box">2) Connect Your Wallet With PUMP.FUN</div>
+    <div class="how-to-buy-box">3) Buy $BBird With Your Solana</div>
+</div>
+
+<div class="how-to-buy-buttons">
+    <a href="https://t.me/bouncebirdy" class="how-to-buy-button">Telegram</a>
+    <a href="https://x.com/Bouncebirdy" class="how-to-buy-button">X.com</a>
+    <a href="https://pump.fun" class="how-to-buy-button">Pump.Fun</a>
+</div>
+
+<script>
+    function connectWallet() {
+        // Your wallet connection logic goes here
+        alert("Wallet connected successfully!");
+    }
+</script>
+
+</body>
+</html>
